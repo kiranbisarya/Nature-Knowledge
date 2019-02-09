@@ -1,21 +1,39 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <script src="script.js"></script>
+    <link rel=" stylesheet" type=" text/css" href="styles.css" />
+    <link rel=" stylesheet" type=" text/css" href="https://fathomless-mountain-33480.herkuapp.com/fonts/css/impact" />
 
-  </head>
     <body>
-            <h1>Select an answer</h1>
-            <form>
-              <input type="radio" name="choice" value="Option1"> Option 1 <br>
-              <input type="radio" name="choice" value="Option2"> Option 2 <br>
-              <input type="radio" name="choice" value="Option1"> Option 3 <br>
-              <input type="radio" name="choice" value="Option1"> Option 4 <br>
-            </form>
-            <p id="msg-container"></p>
-            <button onclick="submitAnswer()">Submit</button>
+
+        <h1 class="text"> Environmental Awareness </h1>
+
+        <h2 class="text"> AS a country, what percent of the world's waste do you think has been produced by the United States? </h2>
+
+
+        <form class="options">
+            <input type="radio" name="choice" value="Option1"> 40% <br>
+            <input type="radio" name="choice" value="Option2"> 10% <br>
+            <input type="radio" name="choice" value="Option3"> 13% <br>
+            <input type="radio" name="choice" value="Option4"> 75% <br>
+        </form>
+
+        <p id="msg-container"></p>
+        <p id="explanation"></p>
+        <button onclick="submitAnswer()">Submit</button>
+        <button onclick="nextQ()">Next Question</button>
+
+
 
 
     </body>
+
+    <footer class="text">Created by Kiran Bisarya, Grant Henry, and Amanda Nelson</footer>
+
+   
+
+</head>
+
+
 </html>
