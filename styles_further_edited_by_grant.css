@@ -82,9 +82,9 @@ h2 {
 
 
 
-    font-family: 'ArialBlack';
+    font-family: 'Georgia';
 
-    color: deepskyblue;
+    color: darkblue;
 
 
 
@@ -108,7 +108,8 @@ footer {
 
     font-family:'fantasy';
 
-    color: black;
+    color: red;
+    font-size:25px;
 
 
 
@@ -128,7 +129,7 @@ footer {
 
   font-family:'Arial';
 
-    font-size: 20px;
+    font-size: 40px;
 
 
 
