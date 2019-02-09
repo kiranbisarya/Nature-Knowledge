@@ -43,9 +43,10 @@ var dataEx = ["According to theworldcounts.com, over 2.15 Billion tons of waste 
     "According to insideclimatenews.org, because wind speeds average to be 70% higher on the ocean than on land, wind farms in the ocean have proven to be 300% more effective!"];
 
 var indexEx = 0;
-var dataA = ["2.15 Billion", "2.3 Trillion", "40%", "30%", "88,000", "250 Million", "1%", "27", "12,000 Tons", "20%", "1.3%", "5,000", "32%", "181 Million", "400,000", "50", "4 out of 5", "250,000", "1881", "300%"];
+var dataA = ["a", "b"];
 var indexA = 0;
-var dataB = ["c", "d"];
+var dataB = ["2.15 million","500 billion","50%","50%","99,000","2 billion","33%","68","2,000 lbs.","90%","13%","100","33%",
+             "281 million","1","2,000","3 out of 27","25,000","1927","110%"];
 var indexB = 0;
 function submitAnswer() {
     var radios = document.getElementsByName("choice");
