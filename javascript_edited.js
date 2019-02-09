@@ -48,6 +48,13 @@ var indexA = 0;
 var dataB = ["2.15 million","500 billion","50%","50%","99,000","2 billion","33%","68","2,000 lbs.","90%","13%","100","33%",
              "281 million","1","2,000","3 out of 27","25,000","1927","110%"];
 var indexB = 0;
+
+var dataC = ["200,000", "10 trillion", "5%", "80%", "10,000", "2,000,000", "50%", "12", "10 tons", "5%", "20%", "100", "6%", "1 million", "1,000,000", "100", "1/3", "100,000", "1968", "50%"];
+var indexC = 0;
+
+var dataD = ["1,000,000", "5 million", "90%", "9%", "100,000", "100,000", "90%", "80", "4,000 tons", "50%", "5%", "10,000", "90%", "2,000", "500,000", "30", "6/7", "900,000", "1814", "99%"];
+var indexD = 0;
+
 function submitAnswer() {
     var radios = document.getElementsByName("choice");
     var i = 0, len = radios.length;
