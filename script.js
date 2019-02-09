@@ -1,6 +1,7 @@
-
 var data = ["hello", "asdf", "ikikik"];
 var index = 0;
+//var dataA = ["40%", "30%", "20%"];
+//var indexA = 0;
 
 function submitAnswer() {
     var radios = document.getElementsByName("choice");
@@ -19,7 +20,7 @@ function submitAnswer() {
             userAnswer = radios[i].value;
         }
 
-       
+
     }
     // if user click submit button without selecting any option, print "please select choice answer".
     if (!checked) {
@@ -38,7 +39,7 @@ function submitAnswer() {
     if (checked)
         document.getElementById("explanation").innerHTML = "According to earthecho.org even though the United States only hosts 5% of the global population, it produces 40% of the world's waste."
 
-  
+
 
 
     // display the hidden msg.
@@ -51,5 +52,9 @@ function nextQ() {
     document.getElementById("next").innerHTML = data[index];
     index = index + 1;
     console.log(index);
+
+    //document.getElementById("next").innerHTML = dataA[indexA];
+    //indexA = indexA + 1;
+    //console.log(indexA);
 
 }
