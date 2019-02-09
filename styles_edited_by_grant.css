@@ -1,0 +1,70 @@
+
+body {
+
+
+
+    background-color: lightgreen;
+
+}
+
+
+
+h1 {
+
+    color: darkgreen;
+
+    text-align: center;
+
+    font-size: 75px;
+
+    font-family: 'Times New Roman';
+
+    -webkit-text-stroke: 2px black;
+
+}
+
+h2 {
+
+    color: saddlebrown;
+
+    font-size: 40px;
+    font-family 'Arial';
+
+    text-align: center;
+
+}
+
+
+
+.options {
+
+    font-size: 30px;
+
+    font-family: 'MS Gothic';
+    color: blue;
+
+}
+
+
+
+footer {
+
+
+
+    text-align: center;
+    font-family:'fantasy';
+    color: black;
+
+}
+
+
+
+#msg-container {
+
+    color: darkgreen;
+  font-family:'Arial';
+    font-size: 20px;
+
+    
+
+}
