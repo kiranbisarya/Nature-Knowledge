@@ -30,3 +30,7 @@ function submitAnswer() {
   document.getElementById("msg-container").style.display = "inline";
 
 }
+
+function nextQ() {
+  document.getElementById("next").innerHTML = "Paragraph changed.";
+}
