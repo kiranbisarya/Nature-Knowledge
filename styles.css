@@ -48,7 +48,7 @@ footer {
     text-align: center;
     font-family: 'fantasy';
     color: black;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 
@@ -65,19 +65,25 @@ footer {
 
 #habitat {
     position: absolute;
-    top: 75%;
-    left: 5%;
+    top: 80%;
+    left: 3%;
 
 }
 
 #turtle {
     position: absolute;
-    top: 75%;
-    left: 25%;
+    top: 80%;
+    left: 23%;
 
 }
 #wind {
     position: absolute;
-    top: 75%;
-    left: 45%;
+    top: 80%;
+    left: 50%;
+}
+
+#nasty {
+    position: absolute;
+    top: 80%;
+    left: 77%;
 }
