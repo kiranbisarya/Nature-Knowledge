@@ -43,6 +43,10 @@ var dataEx = ["According to theworldcounts.com, over 2.15 Billion tons of waste 
     "According to insideclimatenews.org, because wind speeds average to be 70% higher on the ocean than on land, wind farms in the ocean have proven to be 300% more effective!"];
 
 var indexEx = 0;
+
+var dataCorrect = ["2.3 Trillion", "40%", "30%", "88,000", "250 Million", "1%", "27", "12,000 Tons", "20%", "1.3%", "5,000", "32%", "181 Million", "400,000", "50", "4 out of 5", "250,000", "1881", "300%"];
+var indexCorrect = 0;
+
 var dataA = ["2.3 Trillion", "40%", "30%", "88,000", "250 Million", "1%", "27", "12,000 Tons", "20%", "1.3%", "5,000", "32%", "181 Million", "400,000", "50", "4 out of 5", "250,000", "1881", "300%"];
 var indexA = 0;
 var dataB = ["500 billion", "50%", "50%", "99,000", "2 billion", "33%", "68", "2,000 lbs.", "90%", "13%", "100", "33%",
@@ -54,6 +58,9 @@ var indexC = 0;
 
 var dataD = ["5 million", "90%", "9%", "100,000", "100,000", "90%", "80", "4,000 tons", "50%", "5%", "10,000", "90%", "2,000", "500,000", "30", "6/7", "900,000", "1814", "99%"];
 var indexD = 0;
+
+var myList = [["data", "dataCorrect", "dataA", "dataB", "dataC", "dataD", "dataEx"]]
+
 
 function submitAnswer() {
     var radios = document.getElementsByName("choice");
@@ -125,4 +132,21 @@ function nextQ() {
     indexD = indexD + 1;
     console.log(indexD);
 
+  //  [["data","dataCorrect]]
+
 }
+/* [["data", "dataCorrect", "dataA", "dataB", "dataC", "dataD", "dataEx"]]
+let myList = []
+for (int i = 0; i < 20; i++)
+{
+    myList.append([data[i], dataCorrect[i], dataA[i], dataB[i], dataC[i], dataD[i], dataEx[i]])
+}
+let options = []
+for (int i = 2; i < 5; i++)
+options.append(myList[i]);
+let something = []
+while (options != empty()) {
+    int number = math.random(options.size()) - 1
+    something.append(options[number]);
+    options.remove(number);
+} */
